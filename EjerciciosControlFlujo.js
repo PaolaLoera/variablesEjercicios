@@ -23,8 +23,8 @@ function promedioAlumno (nota1, nota2, nota3, nota4) {
 
 
 
-//Ejercicio 3
-function numeroDivisibleTF (numero) {
+//Ejercicio 4
+function numDiv7y8 (numero) {
 
     if (numero % 7 === 0 && numero % 8 === 0 ){
         console.log("Verdadero");
@@ -36,4 +36,17 @@ function numeroDivisibleTF (numero) {
 
 
 
-//Ejercicio 4
+//Ejercicio 5
+function numDiv4o9 (numero) {
+
+    if (numero % 4 === 0 || numero % 9 === 0 ){
+        console.log("Verdadero");
+    } else {
+        console.log("Falso");
+    }
+
+}
+
+
+
+//Ejercicio 6
